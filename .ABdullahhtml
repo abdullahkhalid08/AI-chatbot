@@ -1,0 +1,20 @@
+course-enrollment/
+│
+├── server.js                ← (backend server)
+├── package.json             ← (npm file)
+│
+├── data/
+│   └── enrollments.json     ← (to store students)
+│
+├── public/                  ← (frontend files)
+│   ├── home.html            ← (first page with 2 buttons)
+│   ├── index.html           ← (student enrollment page)
+│   ├── admin.html           ← (admin dashboard page)
+│   │
+│   ├── css/
+│   │   └── style.css        ← (all styling)
+│   │
+│   ├── js/
+│   │   ├── main.js          ← (student form script)
+│   │   └── admin.js         ← (admin dashboard script)
+│
